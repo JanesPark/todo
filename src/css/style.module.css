@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'GothicA1-Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UhBeeDongKyung';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeDongKyung.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 70px;
+  background-color: rgb(222, 206, 231);
+}
+
+.container {
+  margin: auto;
+  padding: 20px;
+  width: 500px;
+  height: 600px;
+  color: black;
+  background-color: rgb(243, 236, 241);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(130, 100, 119);
+}
+
+.today {
+  text-align: left;
+  font-family: 'GothicA1-Light';
+}
+
+.title {
+  font-family: 'UhBeeDongKyung';
+  margin: 10px 0;
+  padding: 10px 0;
+  text-align: center;
+}
